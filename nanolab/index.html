@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!-- IMPORTANT for mobile phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Coming Soon</title>
+
+<style>
+    body {
+        margin: 0;
+        background: #000;
+        color: #fff;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        min-height: 100vh;
+        padding: 20px;
+
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+
+        max-width: 400px;
+        width: 100%;
+    }
+
+    img {
+        width: 60%;
+        max-width: 220px;
+        height: auto;
+    }
+
+    .title {
+        font-size: clamp(20px, 6vw, 28px);
+        font-weight: 600;
+    }
+
+    .subtitle {
+        font-size: clamp(12px, 3.5vw, 14px);
+        opacity: 0.7;
+    }
+
+    /* Additional adaptation for small screens */
+    @media (max-width: 400px) {
+        .container {
+            gap: 12px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="/essentiallogo.svg" alt="essential">
+
+    <div class="title">It seems that you have gone to the wrong place😅</div>
+
+    <div class="subtitle">We won't unlock S-rank dungeon for you! You are E Ranked!!! What's wrong with you?!</div>
+
+</div>
+
+</body>
+  </html>
