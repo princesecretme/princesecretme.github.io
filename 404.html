@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>404 - Not Found</title>
+
+<style>
+    body {
+        margin: 0;
+        background: #000;
+        color: #fff;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        min-height: 100vh;
+        padding: 20px;
+
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+
+        max-width: 400px;
+        width: 100%;
+    }
+
+    img {
+        width: 60%;
+        max-width: 220px;
+        height: auto;
+        opacity: 0.9;
+    }
+
+    .code {
+        font-size: clamp(48px, 12vw, 72px);
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    .title {
+        font-size: clamp(20px, 6vw, 28px);
+        font-weight: 600;
+    }
+
+    .subtitle {
+        font-size: clamp(12px, 3.5vw, 14px);
+        opacity: 0.7;
+    }
+
+    .btn {
+        margin-top: 12px;
+        padding: 10px 18px;
+        border: 1px solid #fff;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        transition: 0.2s;
+    }
+
+    .btn:hover {
+        background: #fff;
+        color: #000;
+    }
+
+    @media (max-width: 400px) {
+        .container {
+            gap: 12px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="/essentiallogo.svg" alt="logo">
+
+    <div class="code">404</div>
+
+    <div class="title">Page not found</div>
+
+    <div class="subtitle">Looks like you got lost</div>
+
+    <a href="/" class="btn">Go home</a>
+
+</div>
+
+</body>
+  </html> 
